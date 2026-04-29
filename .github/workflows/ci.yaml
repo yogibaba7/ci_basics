@@ -41,12 +41,12 @@ jobs :
 
     steps:
       -name: code checkout
-        uses: actions/checkout@v3
+      uses: actions/checkout@v3
       -name: setup python
-        uses: actions/setup-python@v2
+      uses: actions/setup-python@v2
         with:
           python-version : 3.9
       -name: run unit test
-        run: |
-          python -m unittest discover
+      run: |
+        python -m unittest discover
 
