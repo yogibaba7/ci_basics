@@ -16,10 +16,6 @@ def div(a, b):
     return a / b
 
 
-
-
-
-
 if __name__ == "__main__":
     r1 = sum(2, 3)
     r2 = sub(4, 5)
