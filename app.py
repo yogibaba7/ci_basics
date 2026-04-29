@@ -11,4 +11,4 @@ def sub(a, b):
 r1 = sum(2, 3)
 r2 = sub(4, 5)
 
-print(r1,r2)
+print(r1, r2)

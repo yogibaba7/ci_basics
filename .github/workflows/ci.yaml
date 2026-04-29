@@ -4,7 +4,11 @@ on : push
 
 jobs :
   linting:
-    runs-on: ubuntu-latest
+    runs-on: ${{matrix.os}}
+
+    Strategy:
+      matrix:
+        os : [ubuntu-latest,window-latest,macos-latest]
     steps:
       
       - name: code checkout
