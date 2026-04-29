@@ -37,7 +37,7 @@ jobs :
           flake8 app.py
 
   testing:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       -name: code checkout
