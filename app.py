@@ -22,4 +22,3 @@ r3 = mul(4, 6)
 r4 = div(5, 2)
 
 print(r1, r2, r3, r4)
-
